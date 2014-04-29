@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpComicVine", "SharpComicVine\SharpComicVine.csproj", "{96742FA3-C220-4228-A5BE-EEC329591AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpComicVineClient", "SharpComicVineClient\SharpComicVineClient.csproj", "{9DAC6E61-113C-4312-9128-1B21E1CBD967}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SharpComicVine\\SharpComicVine.csproj
+		SccProjectName1 = SharpComicVine
+		SccLocalPath1 = SharpComicVine
+		SccProjectUniqueName2 = SharpComicVineClient\\SharpComicVineClient.csproj
+		SccProjectName2 = SharpComicVineClient
+		SccLocalPath2 = SharpComicVineClient
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96742FA3-C220-4228-A5BE-EEC329591AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96742FA3-C220-4228-A5BE-EEC329591AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96742FA3-C220-4228-A5BE-EEC329591AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96742FA3-C220-4228-A5BE-EEC329591AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAC6E61-113C-4312-9128-1B21E1CBD967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAC6E61-113C-4312-9128-1B21E1CBD967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAC6E61-113C-4312-9128-1B21E1CBD967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAC6E61-113C-4312-9128-1B21E1CBD967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

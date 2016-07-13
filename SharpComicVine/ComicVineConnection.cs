@@ -18,6 +18,7 @@ namespace SharpComicVine
             ComicVineResponse comicVineResponse = new ComicVineResponse();
 
             HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(query);
+            httpWebRequest.UserAgent = ".NET Framework Test Client";
             httpWebRequest.Proxy = null;
 
             using (WebResponse webResponse = await httpWebRequest.GetResponseAsync())
